@@ -8,12 +8,12 @@
 </head>
 <body>
     <div class="container">
-        <h1>Degradação do Solo</h1>
-        <div class="solo-container">
-            <div class="solo saudável">
+        <h1>Degradação do Solo tem 3 tipos que são a física, química e biológica.</h1>
+        <div class=degradação física envolve alterações na estrutura e textura do solo, como compactação ou erosão.>
+            <div class=A degradação química afeta os nutrientes e a composição do solo, como acidificação ou salinização.>
                 <p>Solo saudável</p>
             </div>
-            <div class="solo degradado">
+            <div class=A degradação biológica, por sua vez, afeta a vida no solo, como a perda de matéria orgânica e a redução da biodiversidade.>
                 <p>Solo degradado</p>
             </div>
         </div>
