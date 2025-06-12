@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>degradação do solo</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Degradação do Solo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>degradação do solo</h1>
-        <img src="cataratas-do-iguacu.jpg" alt="Foto das Cataratas do Iguaçu, um lugar com muitas árvores e mata nativa preservada.">
-        <p>O desmatamento intensifica fenômenos negativos no meio ambiente e na vida das pessoas, afetando enchentes, temperatura e qualidade de vida.</p>
-        <nav>
-            <ul>
-                <li><a href="#problemas">Os Problemas</a></li>
-                <li><a href="#consequencias">Consequências</a></li>
-                <li><a href="#conclusao">Conclusão</a></li>
-            </ul>
-        </nav>
-    </header>
-
-<!-- código omitido -->
+    <div class="container">
+        <h1>Degradação do Solo</h1>
+        <div class="solo-container">
+            <div class="solo saudável">
+                <p>Solo saudável</p>
+            </div>
+            <div class="solo degradado">
+                <p>Solo degradado</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
