@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color:rgb(192, 248, 250);
+    background-color:rgba(192, 248, 250, 0.57);
     color: white;
     padding: 20px;
     text-align: center;
@@ -62,7 +62,7 @@ section {
 section h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color:rgb(243, 198, 245);
+    color:rgb(176, 186, 243);
 }
 
 section p {
