@@ -3,20 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Degradação do Solo= refere-se à deterioração da qualidade do solo, comprometendo sua capacidade de sustentar a vida vegetal e a produção agrícola. </title>
+    <title>Problemas e Degradação do Solo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Degradação do Solo tem 3 tipos que são a física, química e biológica.</h1>
-        <div class=degradação física envolve alterações na estrutura e textura do solo, como compactação ou erosão.>
-            <div class=A degradação química afeta os nutrientes e a composição do solo, como acidificação ou salinização.>
-                <p>Solo saudável</p>
-            </div>
-            <div class=A degradação biológica, por sua vez, afeta a vida no solo, como a perda de matéria orgânica e a redução da biodiversidade.>
-                <p>Solo degradado</p>
-            </div>
-        </div>
-    </div>
+    <header>
+        <h1>Problemas e Degradação do Solo</h1>
+        <p>Entenda as causas, os efeitos e como podemos combater a degradação do solo.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#definicao">O que é a Degradação do Solo?</a></li>
+            <li><a href="#causas">Causas</a></li>
+            <li><a href="#efeitos">Efeitos</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+        </ul>
+    </nav>
+
+    <section id="definicao">
+        <h2>O que é a Degradação do Solo?</h2>
+        <p>A degradação do solo é o processo de deterioração da qualidade do solo, resultando na perda de sua fertilidade e capacidade produtiva.</p>
+        <img src="https://via.placeholder.com/600x300" alt="Solo degradado">
+    </section>
+
+    <section id="causas">
+        <h2>Causas da Degradação do Solo</h2>
+        <ul>
+            <li>Desmatamento</li>
+            <li>Uso excessivo de pesticidas e fertilizantes químicos</li>
+            <li>Práticas agrícolas inadequadas</li>
+            <li>Erosão do solo</li>
+        </ul>
+        <img src="https://via.placeholder.com/600x300" alt="Causas da degradação">
+    </section>
+
+    <section id="efeitos">
+        <h2>Efeitos da Degradação do Solo</h2>
+        <ul>
+            <li>Redução da produtividade agrícola</li>
+            <li>Perda de biodiversidade</li>
+            <li>Alterações climáticas</li>
+            <li>Enchentes e secas mais frequentes</li>
+        </ul>
+        <img src="https://via.placeholder.com/600x300" alt="Efeitos no meio ambiente">
+    </section>
+
+    <section id="solucoes">
+        <h2>Soluções para a Degradação do Solo</h2>
+        <ul>
+            <li>Reflorestamento</li>
+            <li>Práticas agrícolas sustentáveis</li>
+            <li>Uso de técnicas de conservação do solo</li>
+            <li>Educação ambiental e políticas públicas</li>
+        </ul>
+        <img src="https://via.placeholder.com/600x300" alt="Soluções para a degradação">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Todos os direitos reservados. Projeto Educacional sobre a Degradação do Solo.</p>
+    </footer>
 </body>
 </html>

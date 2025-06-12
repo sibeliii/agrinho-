@@ -1,3 +1,4 @@
+/* Estilo Global */
 * {
     margin: 0;
     padding: 0;
@@ -6,48 +7,93 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color:rgb(208, 202, 241);
+    background-color: #f4f4f4;
     color: #333;
-    text-align: center;
-    padding: 50px;
+    line-height: 1.6;
 }
 
-h1 {
-    font-size: 2em;
-    color:rgb(195, 241, 238);
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+section p {
+    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+section img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
-.solo-container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    height: 200px;
-    margin-top: 30px;
+/* Lista */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
-.solo {
-    width: 45%;
-    height: 100%;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
     color: white;
-    font-size: 1.2em;
-}
-
-.saudável {
-    background: linear-gradient(to top,rgb(255, 250, 184),rgba(134, 176, 238, 0.88));
-}
-
-.degradado {
-    background: linear-gradient(to top,rgb(165, 230, 159),rgb(243, 134, 32));
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
