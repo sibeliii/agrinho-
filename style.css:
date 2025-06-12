@@ -7,13 +7,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color:rgb(234, 217, 248);
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color:rgb(192, 248, 250);
     color: white;
     padding: 20px;
     text-align: center;
@@ -62,7 +62,7 @@ section {
 section h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: #4CAF50;
+    color:rgb(243, 198, 245);
 }
 
 section p {
